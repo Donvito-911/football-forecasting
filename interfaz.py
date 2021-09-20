@@ -2,6 +2,7 @@ import logic as log
 import pandas as pd
 from tabulate import tabulate
 
+# INTERFAZ
 
 def ejecutar_prob_anotar_goles(liga: int):
     tabla = ejecutar_tabla_de_posiciones(liga)
